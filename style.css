@@ -1,0 +1,24 @@
+#logout {
+    margin-left: 10px;
+}
+
+#log {
+    font-weight: bold;
+    color: greenyellow;
+    background-color: dimgray;
+}
+
+.players {
+    color: gray;
+}
+
+.player_list {
+    list-style: none;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: salmon;
+    background: #FFF;
+    border: solid 2px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}

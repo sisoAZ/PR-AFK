@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!--meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico">
+    <title>PR-AFK</title>
+  </head>
+  <body>
+    <span>Mail: <input type="text" value="" id="mail"></span>
+    <p><span>Password: <input type="password" value="" id="pass"></span></p>
+    <p><input type="button" value="Login" id="login"><input type="button" name="Logout" value="Logout" id="logout"></p>
+    <p><textarea name="H2w" id="log" cols="80" rows="20" readonly></textarea></p>
+    <p><input type="text" placeholder="Chat or Command" id="chat"><input type="button" value="send" id="send"></p>
+    Players: <span class="players" id="players"></span>
+    <p>
+    <ul class="player_list" id="player_list">
+      <li></li>
+    </ul>
+    </p>
+  </body>
+</html>
+
+<!--script>
+    var button = document.getElementById("button")
+    button.addEventListener("click", function() {
+        bb = ["a", "b"]
+        count = 0
+        const range = (start, end) => [...Array(end + 1).keys()].slice(start);
+        log = document.getElementById("log")
+        setInterval(() => {
+            log.value += `${count} QQ` + "\n"
+            count += 1
+            log.scrollTop = log.scrollHeight;
+        }, 50);
+
+    })
+</script>
